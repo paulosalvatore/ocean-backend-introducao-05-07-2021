@@ -38,6 +38,8 @@
 - qual a diferença do frontend
 - e o frontend do node
 - Como aprender a parte do backend desde o começo?
+- nodejs com typescript?
+- padrao de projeto com node?
 
 ## **Dúvidas estruturadas em tópicos:**
 
@@ -52,4 +54,28 @@
   - Como persistir as informações?
   - E se tiver sem conexão com o banco, como persistir assim que a conexão estabelecer?
 - Como publicar/deploy um app NodeJS em Cloud
+- E o TypeScript?
+- Qual padrão projeto devo seguir em NodeJS?
+- Celery e rabit fazem essa sub divisão no backend?
+
+## O que é backend?
+
+- **1 camada** (PC/Servidor)
+  - Geralmente acessada pelo terminal
+- **2 camadas** (Frontend e Backend)
+  - Frontend e Backend podem estar na mesma aplicação
+  - Frontend e Backend podem estar em aplicações separadas
+  - **Frontend:**
+    - Aspecto visual da aplicação
+    - UI - User Interface ou Interface de Usuário
+  - **Backend:**
+    - Processamento de dados da aplicação
+- **Multicamadas** (vários Frontends/vários Backends)
+  - Micro-frontend (Frontend dividido em várias partes/aplicações)
+  - Microsserviços (são serviços de Backend)
+
+## Backend
+
+- **Linguagens de programação:** PHP, JavaScript, Java, Kotlin, C#, C++, Python, TypeScript, etc.
+- 
 
