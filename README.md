@@ -58,6 +58,7 @@
 - Qual padrão projeto devo seguir em NodeJS?
 - Celery e rabit fazem essa sub divisão no backend?
 - Typescript não é apenas uma abordagem para tipar o código em JS?
+- não sei se ja explicou, mas o que é esse json?
 
 ## O que é backend?
 
