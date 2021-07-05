@@ -57,6 +57,7 @@
 - E o TypeScript?
 - Qual padrão projeto devo seguir em NodeJS?
 - Celery e rabit fazem essa sub divisão no backend?
+- Typescript não é apenas uma abordagem para tipar o código em JS?
 
 ## O que é backend?
 
@@ -77,5 +78,18 @@
 ## Backend
 
 - **Linguagens de programação:** PHP, JavaScript, Java, Kotlin, C#, C++, Python, TypeScript, etc.
-- 
+- **Onde entra o NodeJS?**
+  - O NodeJS é um motor (software) capaz de interpretar JavaScript e executar utilizando uma outra linguagem.
+    - O NodeJS é escrito em C++.
+  - O propósito do NodeJS é interpretar JavaScript no Servidor
+
+## Frontend
+
+- **Linguagens:** HTML (marcação), CSS (estilização) e JavaScript (programação)
+
+## Interpretador vs Compilador
+
+**Linguagem interpretada (ex: Python, JavaScript, PHP, etc):** Pega um script, interpreta e executa.
+
+**Linguagem compilada (ex: Java, C++, C#, etc):** Pega um script, transforma em um arquivo binário e esse arquivo binário que é executado.
 
