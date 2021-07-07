@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
 
+// Informo ao Express que todo corpo
+// de requisição será estruturado em JSON
+app.use(express.json());
+
 app.get("/hello", function (req, res) {
     res.send("Hello World");
 });
@@ -40,6 +44,13 @@ app.get("/filmes/:id", (req, res) => {
 });
 
 // [POST] - Create
+app.post("/filmes", (req, res) => {
+    const item = req.body.nome;
+
+    lista.push(item);
+
+    res.send("Item criado com sucesso.");
+});
 
 // [PUT] - Update
 
