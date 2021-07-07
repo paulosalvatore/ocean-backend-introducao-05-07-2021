@@ -1,9 +1,9 @@
-const express = require('express')
-const app = express()
+const express = require("express");
+const app = express();
 
-app.get('/hello', function (req, res) {
-  res.send('Hello World')
-})
+app.get("/hello", function (req, res) {
+    res.send("Hello World");
+});
 
 /*
 Lista de Endpoints CRUD
@@ -24,8 +24,9 @@ Quando uma aplicação segue os padrões REST, ela é chamada de RESTful
 
 const lista = ["Senhor dos Anéis", "Harry Potter"];
 
+// [GET] - Read All
 app.get("/filmes", function (req, res) {
-  res.send(lista)
-})
+    res.send(lista);
+});
 
-app.listen(3000)
+app.listen(3000);
