@@ -64,6 +64,13 @@ app.put("/filmes/:id", (req, res) => {
 });
 
 // [DELETE] - Delete
+app.delete("/filmes/:id", (req, res) => {
+    const id = req.params.id;
+
+    delete lista[id - 1];
+
+    res.send("Item removido com sucesso.");
+});
 
 app.listen(3000);
 
