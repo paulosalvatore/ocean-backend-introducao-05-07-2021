@@ -23,10 +23,26 @@ Quando uma aplicação segue os padrões REST, ela é chamada de RESTful
 // Escolha um tema: Filmes, Séries, Jogos, etc
 
 const lista = ["Senhor dos Anéis", "Harry Potter"];
+//              0                   1
 
 // [GET] - Read All
-app.get("/filmes", function (req, res) {
+app.get("/filmes", (req, res) => {
     res.send(lista);
 });
+
+// [GET] - Read Single (ou Read by ID/Index)
+app.get("/filmes/:id", (req, res) => {
+    const id = req.params.id;
+
+    const item = lista[id - 1];
+
+    res.send(item);
+});
+
+// [POST] - Create
+
+// [PUT] - Update
+
+// [DELETE] - Delete
 
 app.listen(3000);
