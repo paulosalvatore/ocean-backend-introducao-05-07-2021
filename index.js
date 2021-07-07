@@ -53,6 +53,15 @@ app.post("/filmes", (req, res) => {
 });
 
 // [PUT] - Update
+app.put("/filmes/:id", (req, res) => {
+    const id = req.params.id;
+
+    const item = req.body.nome;
+
+    lista[id - 1] = item;
+
+    res.send("Item editado com sucesso.");
+});
 
 // [DELETE] - Delete
 
