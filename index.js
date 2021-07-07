@@ -31,7 +31,7 @@ const lista = ["Senhor dos Anéis", "Harry Potter"];
 
 // [GET] - Read All
 app.get("/filmes", (req, res) => {
-    res.send(lista);
+    res.send(lista.filter(Boolean));
 });
 
 // [GET] - Read Single (ou Read by ID/Index)
